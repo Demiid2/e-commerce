@@ -1,0 +1,23 @@
+.app{
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+}
+.item img{
+    width: 200px;
+}
+.carrito{
+    display: block;
+    width: 100%;
+}
+.hided{
+    display: none;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header{
+    border-bottom: 4px black solid;
+}

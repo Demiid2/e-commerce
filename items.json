@@ -1,0 +1,23 @@
+[
+    {
+        "titulo": "Curso Ingles Empresa",
+        "descripcion": "Este curso de ingles te ayudará a comunicarte y liderar empresas en ingles, está enfocado al vocabulario hablado en las empresas.",
+        "id": 1,
+        "imagen": "./assets/ingles-empresa.jpg",
+        "precio": 600
+    },
+    {
+        "titulo": "Curso Ingles Junior",
+        "descripcion": "En este curso para niños, nos enfocamos en que aprendan las bases. Ya que en esta edad tienen más rapida absorcion de conocimientos, logramos que puedan adquirir esa fluidez que se busca, ademas de una incorporacion del lenguaje más nativa.",
+        "id": 2,
+        "imagen": "./assets/estudiar-ingles-ninos.webp",
+        "precio": 200
+    },
+    {
+        "titulo": "Curso Ingles Viajes",
+        "descripcion": "Con este curso podrás comunicarte de manera fluida con las personas que vayas conociendo durante tu viaje. Nos enfocamos más en el vocabulario informal, el slang.",
+        "id": 3,
+        "imagen": "./assets/ingles-viajes.jpg",
+        "precio": 400
+    }
+]
