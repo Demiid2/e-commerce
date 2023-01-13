@@ -5,6 +5,11 @@ const comprar = document.querySelector('#comprar');
 const vaciar = document.querySelector('#vaciar')
 let products;
 let carrito = []
+
+document.addEventListener("DOMContentLoaded", () => {
+    carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+})  
+
 function showData() {
     let html = '';
     products.forEach(prod => {
@@ -63,6 +68,7 @@ function mostrar() {
     })
     comprar.innerHTML = `Abonar ${precioFinal}USD y continuar`
     carro.innerHTML = html
+    guardarCarrito();
 }
 
 comprar.addEventListener('click', function(){
@@ -73,3 +79,7 @@ vaciar.addEventListener('click', function(){
     carrito=[]
     mostrar()
 })
+
+function guardarCarrito(){
+    localStorage.setItem('carrito', JSON.stringify(carrito))
+}
